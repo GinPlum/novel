@@ -1,0 +1,51 @@
+.maskIn{
+    animation: slideIn .5s both;
+}
+@keyframes slideIn{
+    from{transform: translateX(-100%)}
+    to{transform: translateX(30%)}
+}
+.maskOut{
+    animation: slideOut .5s both;
+}
+@keyframes slideOut{
+    from{transform: translateX(0)}
+    to{transform: translateX(-100)}
+}
+
+
+.mask-enter {
+    transform: translateX(-100%);
+  }
+  
+.mask-enter.mask-enter-active {
+    transform: translateX(0);
+    transition: all 400ms ease;
+  }
+  
+.mask-leave {
+    transform: translateX(0);
+  }
+  
+.mask-leave.mask-leave-active {
+    transform: translateX(-100%);
+    transition: all 400ms ease;
+  }
+
+ .black-enter {
+    opacity: 0.01;
+  }
+  
+  .black-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 400ms ease;
+  }
+  
+  .black-leave {
+    opacity: 1;
+  }
+  
+  .black-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 400ms ease;
+  }

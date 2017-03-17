@@ -1,0 +1,25 @@
+.discovery{
+    background: #f6f6f6;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .cate{
+        margin-top: 40px;
+        background: #fff;
+        &:first-child{
+            margin-top: 20px;
+        }
+        &:nth-child(1)>.fl>i{
+            color:#53c446;
+        }
+        &:nth-child(2)>.fl>i{
+            color:#ffdb35;
+        }
+        &:nth-child(3)>.fl>i{
+            color:#529bff;
+        }
+        &:nth-child(4)>.fl>i{
+            color:#529bff;
+        }          
+    }
+}

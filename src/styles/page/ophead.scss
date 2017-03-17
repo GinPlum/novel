@@ -1,0 +1,64 @@
+.op{
+    position: relative;
+    .fl{
+        i{
+            height: 120px;
+            color:white;
+            overflow: visible!important;
+            font-size: 70px;
+            text-align: center;
+            line-height: 110px;
+            position: absolute;
+            top:50%;
+            margin-top: -60px;
+        }
+    }
+    .input{
+        flex:1;
+        position: relative;
+        &-box{
+            width: 1040px;
+            height: 120px;
+            background: #fff;
+            border-radius: 60px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top: -60px;
+            margin-left: -520px;
+            input{
+                outline: none;
+                border: none;
+                background: transparent;
+                position: absolute;
+                left: 80px;
+                top:50%;
+                transform: translateY(-50%);
+                height: 80px;
+                font-size: 48px;
+            }
+            i{
+                position: absolute;
+                right:60px;
+                top:50%;
+                transform: translateY(-50%);
+                font-size:54px;
+                color:#919191;
+            }
+        }
+    }
+    .fr{
+        box-sizing: border-box;
+        padding-left: 20px;
+        .btn{
+            display: block;
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            i{
+                color:white;
+                font-size: 86px;
+            }
+        }
+    }
+}

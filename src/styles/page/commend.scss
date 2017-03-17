@@ -1,0 +1,121 @@
+.female{
+    color:#ff87ba!important;
+}
+.male{
+    color: #529bff!important;
+}
+.free{
+    color:#5ec1f9!important;
+}
+.publish{
+    color:#00d37d!important;
+}
+.commend{
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 56px;
+    box-sizing: border-box;
+    background-color: #fff;
+    overflow: hidden;
+    .title{
+        display: block;
+        margin: 60px 0;
+        overflow: hidden;
+        .fl{
+            i{
+                font-size: 58px;
+            }
+            b{
+                font-size: 54px;
+            }
+        }
+        .fr{
+            span{
+                font-size: 50px;
+            }
+            i{
+                font-size: 68px;
+                position: relative;
+                top:12px;
+            }
+        }
+    }
+    &-content{
+        .muti{
+            width: 100%;
+            border-bottom: 4px solid #f7f7f7;
+            display: flex;
+            justify-content: space-between;
+            .triple{
+                display: block;
+                flex:1;
+                position: relative;
+                height: 640px;
+                img{
+                    display: block;
+                    width: 340px;
+                    height: 480px;
+                    position: absolute;
+                }
+                &:nth-child(1) img{
+                    left: 0;
+                }
+                &:nth-child(1) span{
+                    left: 0;
+                }
+                &:nth-child(2) img{
+                    left: 50%;
+                    margin-left: -170px;
+                }
+                &:nth-child(2) span{
+                    left: 50%;
+                    margin-left: -170px;
+                }
+                &:nth-child(3) img{
+                    right: 0;
+                }
+                &:nth-child(3) span{
+                    right: 0;
+                }
+                span{
+                    display: block;
+                    width: 340px;
+                    margin-top: 30px;
+                    font-size: 46px;
+                    color: #353c46;
+                    position: absolute;
+                    bottom: 10px;
+                }
+            }
+        }
+        .single{
+            display: block;
+            span{
+                display: block;
+                color:#919191;
+                &:nth-child(1){
+                    margin-top: 50px;
+                    font-size: 60px;
+                    color:#353c46;
+                }
+                &:nth-child(2){
+                    margin-top: 30px;
+                    font-size: 42px;
+                    
+                }
+                &:nth-child(3){
+                    margin-top: 20px;
+                    margin-bottom: 60px;
+                    font-size: 46px;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+            }
+        }
+    }   
+}
+
+
+

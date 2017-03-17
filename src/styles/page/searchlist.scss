@@ -1,0 +1,21 @@
+.searchlist{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .searchlist-content{
+        width: 100%;
+        flex: 1;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 0 50px; 
+    }
+    .nobook{
+        width: 800px;
+        height: 300px;
+        text-align: center;
+        margin: 100px auto;
+        color:#919191;
+        font-size: 76px;
+    }
+}

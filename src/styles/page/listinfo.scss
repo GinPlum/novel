@@ -1,0 +1,76 @@
+.searchlist-item{
+    padding: 50px 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    >div{
+        &:first-child{
+            width: 300px;
+            height: 415px;
+            img{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &:last-child{
+            margin-left: 50px;
+            width: 900px;
+            height: 415px;
+            .bkname{
+                height: 100px;
+                line-height: 100px;
+                font-size: 54px
+            }
+            .mid{
+                .author{
+                    font-size: 46px;
+                    color: #919191;
+                    margin-right: 20px;
+                }
+                .tag{
+                    font-style: normal;
+                    display: inline-block;
+                    margin-left: 15px;
+                    padding: 0 12px 8px;
+                    border: 1px solid;
+                    font-size: 34px;
+                    border-radius: 10px;
+                    box-sizing: border-box;
+                    &:nth-of-type(1){
+                        border-color: #a7bbce;
+                        color:#a7bbce;
+                    }
+                    &:nth-of-type(2){
+                        border-color: #f4c6a6;                     
+                        color: #f4c6a6;
+                    }
+                    &:nth-of-type(3){
+                        border-color: #7ac0a3;      
+                        color: #7ac0a3;
+                    }
+                    &:nth-of-type(4){
+                        border-color: #f9de74;    
+                        color :#f9de74;
+                    }
+                    &:nth-of-type(5){
+                        border-color:   #c80429;  
+                        color: #c80429;
+                    }
+                }
+            }
+            .breif{
+                margin-top: 40px;
+                line-height: 66px;
+                font-size: 54px;
+                color:#919191;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+            }
+        }
+    }
+}
